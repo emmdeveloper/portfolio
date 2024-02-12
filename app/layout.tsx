@@ -16,6 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap"
+        rel="stylesheet"
+      />
+
       <body className={inter.className}>
         <div className="wrapper">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
