@@ -31,7 +31,7 @@ const page = () => {
               key={i}
             >
               <img
-                src={project.image}
+                src={project?.image}
                 height={300}
                 className="drop-shadow"
                 width={300}
