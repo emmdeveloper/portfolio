@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@radix-ui/colors/gray.css";
+@import "@radix-ui/colors/gray-alpha.css";
+@import "@radix-ui/colors/gray-dark.css";
+@import "@radix-ui/colors/gray-dark-alpha.css";
+
+@layer utilities {
+}
+@layer base {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  :root {
+    --brand: #6166dc;
+    --brandTinted: #6165dc1f;
+    --bg: var(--gray-1);
+    --boxBg: var(--gray-4);
+  }
+
+  .light .prose {
+    --tw-prose-headings: var(--gray-12);
+    --tw-prose-body: var(--gray-12);
+    --tw-prose-bold: var(--gray-12);
+    --tw-prose-links: var(--gray-12);
+    --tw-prose-code: var(--gray-12);
+    --tw-prose-quotes: var(--gray-12);
+  }
+
+  .dark .prose {
+    --tw-prose-headings: var(--gray-12);
+    --tw-prose-body: var(--gray-11);
+    --tw-prose-bold: var(--gray-11);
+    --tw-prose-links: var(--gray-11);
+    --tw-prose-code: var(--gray-11);
+    --tw-prose-quotes: var(--gray-11);
+    --blue-10: var(--blue-8);
+  }
+  .animate-in {
+    animation-delay: calc(var(--index) * 130ms);
+  }
+  @media (hover: hover) {
+    .animated-list:hover li {
+      opacity: 0.5;
+    }
+
+    .animated-list:hover li:hover {
+      opacity: 1;
+    }
+  }
+  .section {
+    padding-block: 5rem 1rem;
+  }
+  .animate-in {
+    animation-delay: calc(var(--index) * 130ms);
+  }
+  @media screen and (min-width: 1150px) {
+    .section {
+      padding-block: 7rem 1rem;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .section {
+      padding-block: 7rem 1rem;
+    }
+  }
+  body {
+    font-family: Inter;
+  }
+}
+.wrapper {
+  max-width: 1150px;
+  margin-inline: 1.5rem;
+}
+@media screen and (min-width: 1150px) {
+  .wrapper {
+    margin-inline: auto;
+  }
+}
+main {
+  overflow: hidden;
+}
+.overflow-x-scroll.snap-x::-webkit-scrollbar {
+  /* hide scrollbars with webkit scrollbar */
+  display: none;
+}
