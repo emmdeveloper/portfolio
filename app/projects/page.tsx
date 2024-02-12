@@ -70,7 +70,7 @@ const page = () => {
                     >
                       <GlobeAltIcon className="w-[15px] inline" />{" "}
                       <span className="text-sm whitespace-nowrap">
-                        Github Code
+                        GitHub Code
                       </span>
                     </button>
                   </a>
