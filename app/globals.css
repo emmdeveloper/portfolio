@@ -6,7 +6,7 @@
 @import "@radix-ui/colors/gray-alpha.css";
 @import "@radix-ui/colors/gray-dark.css";
 @import "@radix-ui/colors/gray-dark-alpha.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap");
 @layer utilities {
 }
 @layer base {
@@ -85,5 +85,8 @@ main {
 }
 .overflow-x-scroll.snap-x::-webkit-scrollbar {
   /* hide scrollbars with webkit scrollbar */
+  display: none;
+}
+::-webkit-scrollbar {
   display: none;
 }

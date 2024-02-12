@@ -25,6 +25,7 @@ const config: Config = {
       fontFamily: {
         secondary: ["Lexend", "sans-serif"],
         primary: ["Lexend", "sans-serif"],
+        teritary: ["Lexend", "sans-serif"],
       },
       fontSize: {},
       keyframes: {

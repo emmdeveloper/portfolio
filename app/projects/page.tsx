@@ -2,7 +2,6 @@ import React from "react";
 import type { Metadata } from "next";
 import { Projects } from "@/components/ui/Projects";
 import { GlobeAltIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Projects | Keshi Emmanuel",
