@@ -28,13 +28,13 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 -0 w-full z-40 bg-transparent backdrop-blur-lg">
       <nav className="wrapper flex justify-between items-center px-6 py-3">
         <div>
-          {theme === "dark" ? (
+          {theme === "light" ? (
             <Link href={"/"}>
-              <img src="/project_img/light.png" alt="v" className="w-[37px]" />
+              <img src="/project_img/dark.png" alt="v" className="w-[37px]" />
             </Link>
           ) : (
             <Link href={"/"}>
-              <img src="/project_img/dark.png" alt="v" className="w-[37px]" />
+              <img src="/project_img/light.png" alt="v" className="w-[37px]" />
             </Link>
           )}
         </div>
@@ -72,14 +72,15 @@ const Navbar = () => {
           </svg>
         </div>
 
-        <div className="block z-50 relative ml-auto lg:hidden">
+        <div className="block z-50 relative my-auto lg:hidden">
           {dropDown && (
-            <div className="fixed top-0 right-0 w-4/5 h-full pt-40 pl-20 bg-transparent">
-              <ul className="flex flex-col gap-10">
+            <div className="navMenu bg-tertiary drop-shadow-lg">
+              <ul className="flex flex-col items-center p-10 gap-8">
                 {links.map((link, i) => (
                   <li key={i}>
                     <Link
                       href={link.href}
+                      className=""
                       onClick={() => setDropDown((prev) => !prev)}
                     >
                       {link.label}

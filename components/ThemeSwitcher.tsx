@@ -24,7 +24,7 @@ export const ThemeSwitcher = () => {
       {theme === "light" ? (
         <MoonIcon className="w-[15px]" />
       ) : (
-        <SunIcon className="w-[15px]" />
+        <SunIcon className="w-[20px]" />
       )}
     </button>
   );

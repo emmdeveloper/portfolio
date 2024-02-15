@@ -20,7 +20,7 @@ const page = () => {
             Keshi Emmanuel
           </h2>
           <p
-            className="text-center py-2 w-[500px] mx-auto animate-in"
+            className="text-center py-2 w-[250px] md:w-[500px] mx-auto animate-in"
             style={{ "--index": 6 } as React.CSSProperties}
           >
             Software engineer who loves building cool stuff with code. in

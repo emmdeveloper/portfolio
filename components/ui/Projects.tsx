@@ -1,7 +1,7 @@
 interface Project {
   title: string;
   time: string;
-  image: string ;
+  image: string;
   description: string;
   githHub_link: string;
   live_link: string;

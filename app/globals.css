@@ -90,3 +90,14 @@ main {
 ::-webkit-scrollbar {
   display: none;
 }
+.navMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 9999px;
+
+  z-index: 100;
+  transition: right 0.3s;
+  padding: 4.5rem 0 0 3rem;
+}
