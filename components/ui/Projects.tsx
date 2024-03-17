@@ -34,4 +34,13 @@ export const Projects: Project[] = [
     live_link: "https://event-locator.vercel.app",
     image: "/projects/sportlocator/NinjaSports.png",
   },
+  {
+    title: "MegStorm",
+    description:
+      "Your one-stop ecommerce store to purchase all your tech stuffs at an affordable price!. ",
+    time: "2023",
+    githHub_link: "https://github.com/emmdeveloper/ecommerce",
+    live_link: "https://megstorm.vercel.app",
+    image: "/projects/megstorm/megstorm.png",
+  },
 ];
