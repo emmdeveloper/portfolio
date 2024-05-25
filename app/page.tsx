@@ -36,7 +36,7 @@ const page = () => {
         </p>
         <div className="flex flex-wrap gap-1 pt-5">
           <a
-            href="/Resume.pdf"
+            href="https://drive.google.com/file/d/1FZh5wRaEE2SgiWwdYMXUNB4eHbNJ34gH/view?usp=sharing"
             target="_blank"
             className="text-secondary flex gap-1 animate-in"
             style={{ "--index": 2 } as React.CSSProperties}

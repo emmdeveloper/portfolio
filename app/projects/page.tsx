@@ -24,10 +24,10 @@ const page = () => {
           className="py-10 animate-in"
           style={{ "--index": 3 } as React.CSSProperties}
         >
-          {Projects.map((project, i) => (
+          {Projects.map((project) => (
             <article
               className="flex flex-col md:items-center lg:flex-row gap-5 p-8"
-              key={i}
+              key={project.live_link}
             >
               <img
                 src={project?.image as string}
